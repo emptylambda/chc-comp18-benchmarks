@@ -1,0 +1,1 @@
+ for i in *gz; do gzip -dkc < $i > ../lra-unzip/${i%%.gz}; done
